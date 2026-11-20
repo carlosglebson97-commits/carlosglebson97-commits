@@ -1,33 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="92" viewBox="0 0 1200 92">
   
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070b19"/>
-      <stop offset="55%" stop-color="#111836"/>
-      <stop offset="100%" stop-color="#221047"/>
+    <linearGradient id="bgDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050814"/>
+      <stop offset="50%" stop-color="#0e1636"/>
+      <stop offset="100%" stop-color="#1d0d3d"/>
     </linearGradient>
-    <linearGradient id="neonBorder" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00e5ff"/>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1229" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#151033" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="neonLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff"/>
       <stop offset="50%" stop-color="#6366f1"/>
-      <stop offset="100%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#b84dff"/>
     </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+    <filter id="neonGlow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#38bdf8" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
   </defs>
 
-  <rect x="4" y="4" width="1192" height="112" rx="18" fill="url(#bgGrad)" stroke="url(#neonBorder)" stroke-width="2"/>
-  <text x="44" y="52" fill="#00e5ff" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">
+  <rect x="3" y="3" width="1194" height="86" rx="16" fill="url(#bgDark)" stroke="url(#neonLine)" stroke-width="2"/>
+  <text x="36" y="42" fill="#00f0ff" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2">
     CONECTE-SE COMIGO
   </text>
-  <text x="44" y="82" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="14">
-    GitHub: https://github.com/carlosglebson97-commits   |   LinkedIn: https://www.linkedin.com/in/glebson-carlos
+  <text x="36" y="68" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="13.5">
+    Use os botões e links logo abaixo no perfil para acessar o GitHub, LinkedIn e repositórios.
   </text>
-  <text x="1156" y="66" text-anchor="end" fill="#c084fc" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">
+  <text x="1164" y="52" text-anchor="end" fill="#d8b4fe" font-family="Segoe UI, Arial, sans-serif" font-size="13.5" font-weight="700">
     ADS • UNIBRA
   </text>
 </svg>
