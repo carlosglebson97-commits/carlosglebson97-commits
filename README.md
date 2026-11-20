@@ -1,17 +1,15 @@
-<img src="https://raw.githubusercontent.com/carlosglebson97-commits/carlosglebson97-commits/main/header.svg" width="100%" alt="Sleek Hero">
+<div align="center">
 
-<br/>
+![Header](./header.svg)
 
-<img src="https://raw.githubusercontent.com/carlosglebson97-commits/carlosglebson97-commits/main/about.svg" width="100%" alt="Sleek About">
+![Sobre e Projetos](./about.svg)
 
-<br/>
+[![GitHub](https://img.shields.io/badge/GitHub-Perfil-00e5ff?style=for-the-badge&logo=github&logoColor=black)](https://github.com/carlosglebson97-commits)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-a855f7?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/glebson-carlos)
+[![Repositórios](https://img.shields.io/badge/Ver%20Projetos-Reposit%C3%B3rios-6366f1?style=for-the-badge&logo=gitbook&logoColor=white)](https://github.com/carlosglebson97-commits?tab=repositories)
 
-<img src="https://raw.githubusercontent.com/carlosglebson97-commits/carlosglebson97-commits/main/skills.svg" width="100%" alt="Sleek Stack">
+![Habilidades](./skills.svg)
 
-<br/>
+![Rodapé](./footer.svg)
 
-<img src="https://ryme.md/api/render/sleek-github-stats?u=carlosglebson97-commits&bg=131316&fg=f7f7fb&accent=dc2626&muted=82d9d3&dur=30" width="100%" alt="Sleek GitHub">
-
-<br/>
-
-<img src="https://raw.githubusercontent.com/carlosglebson97-commits/carlosglebson97-commits/main/footer.svg" width="100%" alt="Sleek Wave">
+</div>
