@@ -1,62 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 800 320">
-  <style>
-    .heading { animation: slidein 30s ease-out infinite; }
-    .bio { animation: fade 30s ease-in-out infinite; }
-    .pill { animation: pillpop 30s ease-out infinite; transform-box: fill-box; transform-origin: center; }
-    .p0 { animation-delay: 0.4s }
-    .p1 { animation-delay: 0.52s }
-    .p2 { animation-delay: 0.64s }
-    .accentbar { animation: bar 30s ease-out infinite; transform-origin: top left; }
-
-    @keyframes slidein {
-      0% { opacity: 0; transform: translateX(-12px) }
-      8% { opacity: 1; transform: translateX(0) }
-      90% { opacity: 1; transform: translateX(0) }
-      100% { opacity: 0; transform: translateX(0) }
-    }
-    @keyframes fade {
-      0%, 8% { opacity: 0 }
-      18% { opacity: 1 }
-      90% { opacity: 1 }
-      100% { opacity: 0 }
-    }
-    @keyframes pillpop {
-      0%, 14% { opacity: 0; transform: scale(0.85) }
-      22% { opacity: 1; transform: scale(1) }
-      90% { opacity: 1; transform: scale(1) }
-      100% { opacity: 0; transform: scale(1) }
-    }
-    @keyframes bar {
-      0% { transform: scaleY(0) }
-      10% { transform: scaleY(1) }
-      90% { transform: scaleY(1) }
-      100% { transform: scaleY(1) }
-    }
-  </style>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230">
+  
   <defs>
-    <linearGradient id="card-grad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#131316"/>
-      <stop offset="100%" stop-color="#131316" stop-opacity="0.85"/>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b19"/>
+      <stop offset="55%" stop-color="#111836"/>
+      <stop offset="100%" stop-color="#221047"/>
     </linearGradient>
+    <linearGradient id="neonBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
-  <rect width="100%" height="100%" fill="url(#card-grad)" rx="14" ry="14"/>
-  <rect x="32" y="32" width="3" height="256" fill="#dc2626" rx="1.5" class="accentbar"/>
-  <text class="heading" x="56" y="86" fill="#f7f7fb" font-family='"Inter", system-ui, sans-serif' font-size="32" font-weight="700">Hi, I&apos;m Glebson Carlos Da Silva.</text>
-  <text class="bio" x="56" y="136" fill="#82d9d3" font-family='"Inter", system-ui, sans-serif' font-size="15" font-weight="400"><tspan x="56" dy="0">Graduando em Análise e Desenvolvimento de Sistemas (UNIBRA) e estudante de</tspan><tspan x="56" dy="22">Cloud Computing (AWS). Desenvolvo aplicações e automações com Python, HTML,</tspan><tspan x="56" dy="22">CSS e JavaScript, com foco em organização, conformidade e resolução de</tspan><tspan x="56" dy="22">problemas.</tspan></text>
-  <g transform="translate(56 240.935)">
-        <g class="pill p0">
-          <rect width="207" height="20.130000000000003" rx="10.065000000000001" fill="#dc2626" fill-opacity="0.12" stroke="#dc2626" stroke-opacity="0.4"/>
-          <text x="103.5" y="10.065000000000001" fill="#f7f7fb" font-size="11" font-family="ui-monospace, monospace" text-anchor="middle" dominant-baseline="middle">Estudante de ADS &amp; Cloud AWS</text>
-        </g>
-      </g><g transform="translate(271 240.935)">
-        <g class="pill p1">
-          <rect width="180" height="20.130000000000003" rx="10.065000000000001" fill="#dc2626" fill-opacity="0.12" stroke="#dc2626" stroke-opacity="0.4"/>
-          <text x="90" y="10.065000000000001" fill="#f7f7fb" font-size="11" font-family="ui-monospace, monospace" text-anchor="middle" dominant-baseline="middle">Unibra, Escola da nuvem.</text>
-        </g>
-      </g><g transform="translate(459 240.935)">
-        <g class="pill p2">
-          <rect width="147" height="20.130000000000003" rx="10.065000000000001" fill="#dc2626" fill-opacity="0.12" stroke="#dc2626" stroke-opacity="0.4"/>
-          <text x="73.5" y="10.065000000000001" fill="#f7f7fb" font-size="11" font-family="ui-monospace, monospace" text-anchor="middle" dominant-baseline="middle">Pernambuco, Brasil.</text>
-        </g>
-      </g>
+
+  <rect x="4" y="4" width="1192" height="222" rx="18" fill="url(#bgGrad)" stroke="url(#neonBorder)" stroke-width="2"/>
+  <text x="44" y="48" fill="#00e5ff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">
+    SOBRE MIM & PROJETOS EM DESTAQUE
+  </text>
+  <text x="44" y="80" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="15">
+    Estudante de Análise e Desenvolvimento de Sistemas na UNIBRA, em transição de carreira para tecnologia, com experiência em auditoria, conformidade e resolução de problemas.
+  </text>
+  <rect x="44" y="104" width="356" height="98" rx="12" fill="#0b1229" stroke="#6366f1" stroke-width="1.5"/><text x="60" y="134" fill="#38bdf8" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Triagem Inteligente SUS</text><text x="60" y="162" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="13">Apoio à triagem com Python, Flask e ML</text><rect x="420" y="104" width="356" height="98" rx="12" fill="#0b1229" stroke="#6366f1" stroke-width="1.5"/><text x="436" y="134" fill="#38bdf8" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Auditoria Corporativa</text><text x="436" y="162" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="13">Controle, conformidade e automações</text><rect x="796" y="104" width="356" height="98" rx="12" fill="#0b1229" stroke="#6366f1" stroke-width="1.5"/><text x="812" y="134" fill="#38bdf8" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Bomberman Arena</text><text x="812" y="162" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="13">Projeto interativo e lógica de jogo</text>
 </svg>
