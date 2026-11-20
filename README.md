@@ -1,26 +1,17 @@
-Olá, eu sou Glebson Carlos! 
+<img src="https://raw.githubusercontent.com/carlosglebson97-commits/carlosglebson97-commits/main/header.svg" width="100%" alt="Sleek Hero">
 
-Estudante de **Análise e Desenvolvimento de Sistemas (ADS)** focado no desenvolvimento de aplicações web, inteligência artificial e soluções tecnológicas.
+<br/>
 
----
+<img src="https://raw.githubusercontent.com/carlosglebson97-commits/carlosglebson97-commits/main/about.svg" width="100%" alt="Sleek About">
 
- Sobre Mim
+<br/>
 
--  Cursando **Análise e Desenvolvimento de Sistemas (ADS)**.
--  Foco no desenvolvimento de soluções com **Python, Flask e Machine Learning**.
-- Interesse em desenvolvimento web, engenharia de software e resolução de problemas.
+<img src="https://raw.githubusercontent.com/carlosglebson97-commits/carlosglebson97-commits/main/skills.svg" width="100%" alt="Sleek Stack">
 
----
+<br/>
 
-Tecnologias e Ferramentas
+<img src="https://ryme.md/api/render/sleek-github-stats?u=carlosglebson97-commits&bg=131316&fg=f7f7fb&accent=dc2626&muted=82d9d3&dur=30" width="100%" alt="Sleek GitHub">
 
-- **Linguagens:** Python, JavaScript, HTML5, CSS3, SQL,PHP,JAVA,HTML,C.
-- **Frameworks & Libs:** Flask, Machine Learning (Decision Tree)
-- **Infraestrutura & Ferramentas:** AWS, Linux, Git & GitHub
+<br/>
 
----
-
-Conecte-se comigo!
-
-- **LinkedIn:** [linkedin.com/in/glebson-carlos](https://www.linkedin.com/in/glebson-carlos)
-- **E-mail:** carlosglebson97@gmail.com
+<img src="https://raw.githubusercontent.com/carlosglebson97-commits/carlosglebson97-commits/main/footer.svg" width="100%" alt="Sleek Wave">
