@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 800 320">
+  <style>
+    .heading { animation: slidein 30s ease-out infinite; }
+    .bio { animation: fade 30s ease-in-out infinite; }
+    .pill { animation: pillpop 30s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+    .p0 { animation-delay: 0.4s }
+    .p1 { animation-delay: 0.52s }
+    .p2 { animation-delay: 0.64s }
+    .accentbar { animation: bar 30s ease-out infinite; transform-origin: top left; }
+
+    @keyframes slidein {
+      0% { opacity: 0; transform: translateX(-12px) }
+      8% { opacity: 1; transform: translateX(0) }
+      90% { opacity: 1; transform: translateX(0) }
+      100% { opacity: 0; transform: translateX(0) }
+    }
+    @keyframes fade {
+      0%, 8% { opacity: 0 }
+      18% { opacity: 1 }
+      90% { opacity: 1 }
+      100% { opacity: 0 }
+    }
+    @keyframes pillpop {
+      0%, 14% { opacity: 0; transform: scale(0.85) }
+      22% { opacity: 1; transform: scale(1) }
+      90% { opacity: 1; transform: scale(1) }
+      100% { opacity: 0; transform: scale(1) }
+    }
+    @keyframes bar {
+      0% { transform: scaleY(0) }
+      10% { transform: scaleY(1) }
+      90% { transform: scaleY(1) }
+      100% { transform: scaleY(1) }
+    }
+  </style>
+  <defs>
+    <linearGradient id="card-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#131316"/>
+      <stop offset="100%" stop-color="#131316" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#card-grad)" rx="14" ry="14"/>
+  <rect x="32" y="32" width="3" height="256" fill="#dc2626" rx="1.5" class="accentbar"/>
+  <text class="heading" x="56" y="86" fill="#f7f7fb" font-family='"Inter", system-ui, sans-serif' font-size="32" font-weight="700">Hi, I&apos;m Glebson Carlos Da Silva.</text>
+  <text class="bio" x="56" y="136" fill="#82d9d3" font-family='"Inter", system-ui, sans-serif' font-size="15" font-weight="400"><tspan x="56" dy="0">Graduando em Análise e Desenvolvimento de Sistemas (UNIBRA) e estudante de</tspan><tspan x="56" dy="22">Cloud Computing (AWS). Desenvolvo aplicações e automações com Python, HTML,</tspan><tspan x="56" dy="22">CSS e JavaScript, com foco em organização, conformidade e resolução de</tspan><tspan x="56" dy="22">problemas.</tspan></text>
+  <g transform="translate(56 240.935)">
+        <g class="pill p0">
+          <rect width="207" height="20.130000000000003" rx="10.065000000000001" fill="#dc2626" fill-opacity="0.12" stroke="#dc2626" stroke-opacity="0.4"/>
+          <text x="103.5" y="10.065000000000001" fill="#f7f7fb" font-size="11" font-family="ui-monospace, monospace" text-anchor="middle" dominant-baseline="middle">Estudante de ADS &amp; Cloud AWS</text>
+        </g>
+      </g><g transform="translate(271 240.935)">
+        <g class="pill p1">
+          <rect width="180" height="20.130000000000003" rx="10.065000000000001" fill="#dc2626" fill-opacity="0.12" stroke="#dc2626" stroke-opacity="0.4"/>
+          <text x="90" y="10.065000000000001" fill="#f7f7fb" font-size="11" font-family="ui-monospace, monospace" text-anchor="middle" dominant-baseline="middle">Unibra, Escola da nuvem.</text>
+        </g>
+      </g><g transform="translate(459 240.935)">
+        <g class="pill p2">
+          <rect width="147" height="20.130000000000003" rx="10.065000000000001" fill="#dc2626" fill-opacity="0.12" stroke="#dc2626" stroke-opacity="0.4"/>
+          <text x="73.5" y="10.065000000000001" fill="#f7f7fb" font-size="11" font-family="ui-monospace, monospace" text-anchor="middle" dominant-baseline="middle">Pernambuco, Brasil.</text>
+        </g>
+      </g>
+</svg>
