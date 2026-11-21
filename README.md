@@ -9,4 +9,3 @@
 ![Rodapé](https://raw.githubusercontent.com/carlosglebson97-commits/carlosglebson97-commits/main/footer.svg)
 
 </div>
-
