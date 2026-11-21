@@ -1,13 +1,50 @@
-<div align="center">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="315" viewBox="0 0 1200 315">
+  
+  <defs>
+    <linearGradient id="bgDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050814"/>
+      <stop offset="50%" stop-color="#0e1636"/>
+      <stop offset="100%" stop-color="#1d0d3d"/>
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1229" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#151033" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="neonLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#b84dff"/>
+    </linearGradient>
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#38bdf8" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
 
-![Header](./header.svg)
+  <rect x="3" y="3" width="1194" height="309" rx="18" fill="url(#bgDark)" stroke="url(#neonLine)" stroke-width="2"/>
+  <rect x="3" y="3" width="1194" height="309" rx="18" fill="url(#gridPattern)"/>
 
-![Sobre e Projetos](./about.svg)
+  <rect x="28" y="24" width="730" height="145" rx="14" fill="url(#cardBg)" stroke="#00f0ff" stroke-opacity="0.55" stroke-width="1.5"/>
+  <text x="48" y="54" fill="#00f0ff" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="1.5">
+    SOBRE MIM
+  </text>
+  <text x="48" y="84" fill="#f1f5f9" font-family="Segoe UI, Arial, sans-serif" font-size="14.5">
+    Estudante de Análise e Desenvolvimento de Sistemas (UNIBRA),
+  </text>
+  <text x="48" y="106" fill="#f1f5f9" font-family="Segoe UI, Arial, sans-serif" font-size="14.5">
+    em transição para tecnologia com foco em conformidade e soluções.
+  </text>
+  <text x="48" y="142" fill="#c084fc" font-family="Segoe UI, Arial, sans-serif" font-size="13.5" font-style="italic">
+    "Disciplina, foco e aprendizado constante na construção de soluções."
+  </text>
 
-![Habilidades](./skills.svg)
+  <rect x="776" y="24" width="396" height="145" rx="14" fill="url(#cardBg)" stroke="#a855f7" stroke-opacity="0.65" stroke-width="1.5"/>
+  <text x="796" y="54" fill="#d8b4fe" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="1.5">
+    FOCO ATUAL
+  </text>
+  <circle cx="804" cy="80" r="4" fill="#00f0ff"/><text x="816" y="84" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="13.5">Desenvolvimento Web e APIs</text><circle cx="804" cy="101" r="4" fill="#00f0ff"/><text x="816" y="105" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="13.5">Computação em Nuvem (AWS)</text><circle cx="804" cy="122" r="4" fill="#00f0ff"/><text x="816" y="126" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="13.5">Projetos Práticos e Automação</text><circle cx="804" cy="143" r="4" fill="#00f0ff"/><text x="816" y="147" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="13.5">Evolução Contínua na Área Tech</text>
 
-![Rodapé](./footer.svg)
-
-[GitHub](https://github.com/carlosglebson97-commits) • [LinkedIn](https://www.linkedin.com/in/glebson-carlos) • [Repositórios](https://github.com/carlosglebson97-commits?tab=repositories)
-
-</div>
+  <text x="32" y="198" fill="#38bdf8" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="1.5">
+    PROJETOS EM DESTAQUE
+  </text>
+  <rect x="28" y="210" width="368" height="82" rx="12" fill="url(#cardBg)" stroke="#6366f1" stroke-width="1.5"/><rect x="28" y="210" width="6" height="82" rx="3" fill="url(#neonLine)"/><text x="48" y="240" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="15.5" font-weight="700">Triagem Inteligente SUS</text><text x="48" y="268" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="13">Apoio à triagem com Python, Flask e ML</text><rect x="416" y="210" width="368" height="82" rx="12" fill="url(#cardBg)" stroke="#6366f1" stroke-width="1.5"/><rect x="416" y="210" width="6" height="82" rx="3" fill="url(#neonLine)"/><text x="436" y="240" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="15.5" font-weight="700">Auditoria Corporativa</text><text x="436" y="268" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="13">Controle, conformidade e automações</text><rect x="804" y="210" width="368" height="82" rx="12" fill="url(#cardBg)" stroke="#6366f1" stroke-width="1.5"/><rect x="804" y="210" width="6" height="82" rx="3" fill="url(#neonLine)"/><text x="824" y="240" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="15.5" font-weight="700">Bomberman Arena</text><text x="824" y="268" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="13">Projeto interativo e lógica de jogo</text>
+</svg>

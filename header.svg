@@ -15,13 +15,6 @@
       <stop offset="50%" stop-color="#6366f1"/>
       <stop offset="100%" stop-color="#b84dff"/>
     </linearGradient>
-    <filter id="neonGlow" x="-25%" y="-25%" width="150%" height="150%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
     <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#38bdf8" stroke-opacity="0.06" stroke-width="1"/>
     </pattern>
@@ -30,29 +23,25 @@
   <rect x="3" y="3" width="1194" height="244" rx="18" fill="url(#bgDark)" stroke="url(#neonLine)" stroke-width="2.5"/>
   <rect x="3" y="3" width="1194" height="244" rx="18" fill="url(#gridPattern)"/>
 
-  <!-- Cantos decorativos estilo HUD -->
-  <path d="M 24 44 L 24 24 L 44 24" fill="none" stroke="#00f0ff" stroke-width="3" filter="url(#neonGlow)"/>
-  <path d="M 1156 24 L 1176 24 L 1176 44" fill="none" stroke="#b84dff" stroke-width="3" filter="url(#neonGlow)"/>
-  <path d="M 24 206 L 24 226 L 44 226" fill="none" stroke="#b84dff" stroke-width="3" filter="url(#neonGlow)"/>
-  <path d="M 1156 226 L 1176 226 L 1176 206" fill="none" stroke="#00f0ff" stroke-width="3" filter="url(#neonGlow)"/>
+  <path d="M 24 44 L 24 24 L 44 24" fill="none" stroke="#00f0ff" stroke-width="3"/>
+  <path d="M 1156 24 L 1176 24 L 1176 44" fill="none" stroke="#b84dff" stroke-width="3"/>
+  <path d="M 24 206 L 24 226 L 44 226" fill="none" stroke="#b84dff" stroke-width="3"/>
+  <path d="M 1156 226 L 1176 226 L 1176 206" fill="none" stroke="#00f0ff" stroke-width="3"/>
 
-  <!-- Globo / radar tecnológico à direita -->
   <circle cx="995" cy="125" r="84" fill="#09132e" stroke="#00f0ff" stroke-opacity="0.35" stroke-width="1.5"/>
   <ellipse cx="995" cy="125" rx="84" ry="34" fill="none" stroke="#38bdf8" stroke-opacity="0.45" stroke-width="1.2"/>
   <ellipse cx="995" cy="125" rx="42" ry="84" fill="none" stroke="#a855f7" stroke-opacity="0.45" stroke-width="1.2"/>
-  <ellipse cx="995" cy="125" rx="98" ry="26" transform="rotate(-18 995 125)" fill="none" stroke="#e879f9" stroke-opacity="0.65" stroke-width="1.5" filter="url(#neonGlow)"/>
-  <circle cx="995" cy="125" r="14" fill="#00f0ff" fill-opacity="0.22" stroke="#00f0ff" stroke-width="2" filter="url(#neonGlow)"/>
+  <ellipse cx="995" cy="125" rx="98" ry="26" transform="rotate(-18 995 125)" fill="none" stroke="#e879f9" stroke-opacity="0.65" stroke-width="1.5"/>
+  <circle cx="995" cy="125" r="14" fill="#00f0ff" fill-opacity="0.22" stroke="#00f0ff" stroke-width="2"/>
 
-  <!-- Badge ONLINE -->
   <rect x="1085" y="22" width="76" height="26" rx="13" fill="#072626" stroke="#22c55e" stroke-width="1.2"/>
-  <circle cx="1100" cy="35" r="4.5" fill="#22c55e" filter="url(#neonGlow)"/>
+  <circle cx="1100" cy="35" r="4.5" fill="#22c55e"/>
   <text x="1112" y="40" fill="#86efac" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700">ONLINE</text>
 
-  <!-- Textos principais -->
   <text x="52" y="64" fill="#38bdf8" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3">
     GITHUB PROFILE // TECH DASHBOARD
   </text>
-  <text x="52" y="124" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="800" filter="url(#neonGlow)">
+  <text x="52" y="124" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="800">
     GLEBSON CARLOS
   </text>
   <text x="52" y="164" fill="#d8b4fe" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="1.2">
