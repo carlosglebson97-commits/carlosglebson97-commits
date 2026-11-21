@@ -1,11 +1,12 @@
 <div align="center">
 
-![Header](./header.svg)
+![Header](https://raw.githubusercontent.com/carlosglebson97-commits/carlosglebson97-commits/main/header.svg)
 
-![Sobre e Projetos](./about.svg)
+![Sobre e Projetos](https://raw.githubusercontent.com/carlosglebson97-commits/carlosglebson97-commits/main/about.svg)
 
-![Habilidades](./skills.svg)
+![Habilidades](https://raw.githubusercontent.com/carlosglebson97-commits/carlosglebson97-commits/main/skills.svg)
 
-![Rodapé](./footer.svg)
+![Rodapé](https://raw.githubusercontent.com/carlosglebson97-commits/carlosglebson97-commits/main/footer.svg)
 
 </div>
+
